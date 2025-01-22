@@ -1,5 +1,5 @@
-# Personal Work Portfolio Website
-Making a Personal Work Portfolio Website 
+# Personal Portfolio Website
+Making a simple Personal Portfolio Website 
 
 ## Language/s:
 * HTML
@@ -7,4 +7,4 @@ Making a Personal Work Portfolio Website
 * Javascript
 
 ## IDE: 
-* Vscode
+* Virtual Studio Code
