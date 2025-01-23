@@ -8,3 +8,6 @@ Making a simple Personal Portfolio Website
 
 ## IDE: 
 * Virtual Studio Code
+
+## Note:
+Currently learning HTML
