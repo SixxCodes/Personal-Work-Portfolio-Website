@@ -6,7 +6,7 @@ Making a simple Personal Portfolio Website
 * CSS
 * Javascript
 
-## IDE: 
+## 🌱 IDE: 
 * Virtual Studio Code
 
 ## Note:
