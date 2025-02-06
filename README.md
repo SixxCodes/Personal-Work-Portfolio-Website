@@ -1,7 +1,7 @@
 # 🌱 Personal Portfolio Website 🌱
 Making a simple Personal Portfolio Website 
 
-## Language/s:
+## 🌱 Language/s:
 * HTML
 * CSS
 * Javascript
