@@ -1,4 +1,4 @@
-/* :root{
+:root{
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
 }
@@ -14,10 +14,11 @@ header{
     background-color: rgb(249, 240, 255);
 }
 
-h1{
+h2{
     margin: 15px 30px;
     display: inline-block;
     color: #ff7d7d;
+    font-size: 33px;
 }
 
 .link-container{
@@ -94,8 +95,9 @@ hr{
     margin: 0;
 }
 
-#greeting{
+h1{
     font-size: 40px;
+    font-weight: normal;
 }
 
 #intro{
@@ -105,4 +107,4 @@ hr{
 
 #quote{
     font-size: 20px;
-} */
+}
