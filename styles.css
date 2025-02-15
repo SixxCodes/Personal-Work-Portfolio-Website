@@ -59,3 +59,33 @@ h1{
     padding: 13px 50px;
     cursor: pointer;
 }
+
+article{
+    background-color: rgb(249, 240, 255);
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: center;
+    margin: 50px;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 30px;
+    height: 550px;
+    box-shadow: 5px 5px 5px 5px #ff7d7d2a, -5px -5px 20px 20px #ff7d7d2a;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    border: none;
+    height: 2px;
+    background-color: #ff7d7d;
+}
+
+img{
+    margin-top: 20px;
+    border: 10px solid #ff7d7d;
+    border-radius: 50px;
+}
