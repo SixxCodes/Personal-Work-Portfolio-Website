@@ -5,5 +5,5 @@ Making a simple Personal Portfolio Website
 * HTML
 * CSS
 
-## 🌱 IDE: 
+## 🌱 IDE 🌱: 
 * Virtual Studio Code
