@@ -1,0 +1,61 @@
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+body{
+    margin: 0;
+    background-image: url('images/pink-bg.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+header{
+    background-color: rgb(249, 240, 255);
+}
+
+h1{
+    margin: 15px 30px;
+    display: inline-block;
+    color: #ff7d7d;
+}
+
+.link-container{
+    position: relative;
+    float: right;
+    top: 9px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 20px;
+    color: #ff7d7d;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    text-decoration: underline;
+    background-color: #ff7d7d;
+    color: white;
+    font-size: 30px;
+}
+
+#hire-me{
+    font-size: 20px;
+    border: 0;
+    margin-right: 20px;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: #ff7d7d;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#hire-me:hover{
+    background-color: #ff7d7d86;
+    padding: 13px 50px;
+    cursor: pointer;
+}
