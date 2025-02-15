@@ -119,3 +119,11 @@ h1{
 #quote{
     font-size: 20px;
 }
+
+#article-about{
+    height: 1000px;
+}
+
+.fun-section{
+    text-align: left;
+}
