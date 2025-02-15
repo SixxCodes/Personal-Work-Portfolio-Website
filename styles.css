@@ -76,16 +76,33 @@ article{
     font-family: 'Courier New', Courier, monospace;
 }
 
+img{
+    margin-top: 30px;
+    border: 10px solid #ff7d7d;
+    border-radius: 50px;
+}
+
 hr{
-    width: 90%;
+    width: 80%;
     margin: auto;
     border: none;
     height: 2px;
     background-color: #ff7d7d;
 }
 
-img{
-    margin-top: 20px;
-    border: 10px solid #ff7d7d;
-    border-radius: 50px;
+.main-content{
+    margin: 0;
+}
+
+#greeting{
+    font-size: 40px;
+}
+
+#intro{
+    font-size: 20px;
+    padding: 30px 50px;
+}
+
+#quote{
+    font-size: 20px;
 }
