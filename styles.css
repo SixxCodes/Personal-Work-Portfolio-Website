@@ -12,6 +12,12 @@ body{
 
 header{
     background-color: rgb(249, 240, 255);
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* border-bottom: 2px solid #ff7d7d; */
+    box-shadow: 5px 5px 10px 5px #ff7d7d54;
 }
 
 h2{
@@ -67,7 +73,7 @@ article{
     background-size: contain;
     text-align: center;
     margin: 50px;
-    margin-top: 50px;
+    margin-top: 120px;
     margin-left: 190px;
     margin-right: 190px;
     margin-bottom: 30px;
