@@ -75,6 +75,17 @@ article{
     box-shadow: 5px 5px 5px 5px #ff7d7d2a, -5px -5px 20px 20px #ff7d7d2a;
     border-radius: 30px;
     font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 img{
