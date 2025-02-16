@@ -1,6 +1,8 @@
 :root{
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
+    --main-color: #ff7d7d;
+    --white: rgb(249, 240, 255);
 }
 
 body{
@@ -11,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(249, 240, 255);
+    background-color: var(--white);
     position:fixed;
     top: 0;
     width: 100%;
@@ -20,10 +22,25 @@ header{
     box-shadow: 5px 5px 10px 5px #ff7d7d54;
 }
 
+.logo{
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 50px;
+    float: left;
+    border: 1px solid var(--main-color);
+
+    transition: 1s;
+}
+
+.logo:hover{
+    box-shadow: 5px 5px 10px 2px var(--main-color), -5px -5px 10px 2px var(--main-color);
+}
+
 h2{
-    margin: 15px 30px;
+    margin: 15px 10px;
     display: inline-block;
-    color: #ff7d7d;
+    color: var(--main-color);
     font-size: 33px;
 }
 
@@ -36,14 +53,14 @@ h2{
 .link{
     text-decoration: none;
     padding: 20px;
-    color: #ff7d7d;
+    color: var(--main-color);
     font-size: 24px;
     transition: 0.3s;
 }
 
 .link:hover{
     text-decoration: underline;
-    background-color: #ff7d7d;
+    background-color: var(--main-color);
     color: white;
     font-size: 30px;
 }
@@ -54,7 +71,7 @@ h2{
     margin-right: 20px;
     padding: 13px;
     border-radius: 20px;
-    background-color: #ff7d7d;
+    background-color: var(--main-color);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
@@ -68,7 +85,7 @@ h2{
 }
 
 article{
-    background-color: rgb(249, 240, 255);
+    background-color: var(--white);
     background-attachment: fixed;
     background-size: contain;
     text-align: center;
@@ -96,7 +113,7 @@ article{
 
 img{
     margin-top: 30px;
-    border: 10px solid #ff7d7d;
+    border: 10px solid var(--main-color);
     border-radius: 50px;
 }
 
@@ -105,7 +122,7 @@ hr{
     margin: auto;
     border: none;
     height: 2px;
-    background-color: #ff7d7d;
+    background-color: var(--main-color);
 }
 
 .main-content{
