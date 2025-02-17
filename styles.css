@@ -204,11 +204,21 @@ h1{
     font-size: 20px;
 }
 
+#about-content-2nd-par{
+    top: 600px;
+    left: 250px;
+    text-align: center;
+}
+
+.above-more{
+    margin-top: 180px;
+}
+
 h3{
     text-align: center;
     color: var(--main-color);
     font-variant: normal;
-    margin-top: 200px;
+    margin-top: 0px;
     margin-bottom: 0;
     font-size: 70px;
 }
@@ -223,6 +233,10 @@ h3{
 
 .description{
     text-align: center;
+}
+
+.below-more{
+    margin-top: 40px;
 }
 
 .about-hr{
