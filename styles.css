@@ -12,6 +12,8 @@ body{
     background-size: contain;
 }
 
+/*====================HEADER====================*/
+
 header{
     background-color: var(--white);
     position:fixed;
@@ -84,6 +86,8 @@ h2{
     cursor: pointer;
 }
 
+/*====================ARTICLE BACKGROUND====================*/
+
 article{
     background-color: var(--white);
     background-attachment: fixed;
@@ -110,6 +114,8 @@ article{
         opacity: 1;
     }
 }
+
+/*====================INSIDE ARTICLE====================*/
 
 img{
     margin-top: 30px;
@@ -143,10 +149,57 @@ h1{
     font-size: 20px;
 }
 
-#article-about{
+/*====================ABOUT PAGE====================*/
+
+.article-about{
     height: 1000px;
 }
 
+.article-section{
+    background-color: var(--white);
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    height: 510px;
+    box-shadow: 5px 5px 5px 5px #ff7d7d2a, -5px -5px 20px 20px #ff7d7d2a;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+#about-section{
+    height: 600px;
+}
+
+.about-image{
+    margin: 0;
+    width: 300px;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.about-title{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    font-variant: normal;
+    font-size: 70px;
+    color: var(--main-color);
+}
+
+.about-hr{
+    margin-top: 50px;
+    height: 5px;
+    border-radius: 50px;
+}
+
 .fun-section{
-    text-align: left;
+    text-align: center;
 }
