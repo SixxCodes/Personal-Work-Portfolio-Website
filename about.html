@@ -37,37 +37,32 @@
                 <h3>more of me.</h3>
                 <div class="gallery-container">
                     <div class="gallery">
-                        <a target="_blank" href="my_images/ken.jpg">
-                            <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
-                        </a>
+                        <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
                         <div class="description">My Picture</div>
                     </div>
                     <div class="gallery">
-                        <a target="_blank" href="my_images/ken.jpg">
-                            <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
-                        </a>
+                        <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
                         <div class="description">My Picture</div>
                     </div>
                     <div class="gallery">
-                        <a target="_blank" href="my_images/ken.jpg">
-                            <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
-                        </a>
+                        <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
                         <div class="description">My Picture</div>
                     </div>
                     <div class="gallery">
-                        <a target="_blank" href="my_images/ken.jpg">
-                            <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
-                        </a>
+                        <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
                         <div class="description">My Picture</div>
                     </div>
                     <div class="gallery">
-                        <a target="_blank" href="my_images/ken.jpg">
-                            <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
-                        </a>
+                        <img src="my_images/ken.jpg" alt="My Picture" width="150"/>
                         <div class="description">My Picture</div>
                     </div>
                 </div>
                 <hr class="below-more"/>
+
+                <div class="popup-image">
+                    <span>&times;</span>
+                    <img src="my_images/ken.jpg" alt="My Picture"/>
+                </div>
             </div>
 
             <hr class="about-hr"/>
@@ -98,6 +93,19 @@
             </div>
 
         </div>
+
+        <script>
+            document.querySelectorAll('.gallery-container img').forEach(image =>{
+                image.onclick = () =>{
+                    document.querySelector('.popup-image').style.display = 'block';
+                    document.querySelector('.popup-image img').src = image.getAttribute('src');
+                }
+            });
+
+            document.querySelector('.popup-image span').onclick = () =>{
+                document.querySelector('.popup-image').style.display = 'none';
+            }
+        </script>
 
     </body>
 </html>

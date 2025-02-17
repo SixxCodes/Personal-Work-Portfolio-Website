@@ -229,6 +229,11 @@ h3{
 
 .gallery{
    display: inline-block;
+   transition: 0.3s;
+}
+
+.gallery:hover{
+    scale: 1.1;
 }
 
 .description{
@@ -239,6 +244,42 @@ h3{
     margin-top: 40px;
 }
 
+.popup-image{
+    position:fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span{
+    margin-top: 100px;
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup-image img{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%); 
+  border: 5px solid #fff;
+  width: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .popup-image img{
+        width: 95%;
+    }
+}
+
 .about-hr{
     margin-top: 50px;
     height: 5px;
@@ -246,5 +287,5 @@ h3{
 }
 
 .fun-section{
-    text-align: center;
+    z-index: 1;
 }
