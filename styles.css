@@ -204,8 +204,25 @@ h1{
     font-size: 20px;
 }
 
+h3{
+    text-align: center;
+    color: var(--main-color);
+    font-variant: normal;
+    margin-top: 200px;
+    margin-bottom: 0;
+    font-size: 70px;
+}
+
+.gallery-container{
+    padding-left: 40px;
+}
+
 .gallery{
    display: inline-block;
+}
+
+.description{
+    text-align: center;
 }
 
 .about-hr{
