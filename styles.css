@@ -255,7 +255,7 @@ h3{
 }
 
 .popup-image span{
-    margin-top: 100px;
+    margin-top: 90px;
     position: absolute;
     top: 0; right: 10px;
     font-size: 40px;
@@ -267,11 +267,16 @@ h3{
 
 .popup-image img{
   position: absolute;
-  top: 50%; left: 50%;
+  top: 40%; left: 50%;
   transform: translate(-50%, -50%); 
   border: 5px solid #fff;
   width: 300px;
   object-fit: cover;
+}
+
+.popup-image p{
+    margin-top: 500px;
+    color: white;
 }
 
 @media (max-width: 768px){
