@@ -7,3 +7,5 @@ Making a simple Personal Portfolio Website :>
 
 ## 🌱 IDE 🌱: 
 * Virtual Studio Code
+
+## Tutorials watched: 
