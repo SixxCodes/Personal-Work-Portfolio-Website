@@ -250,7 +250,7 @@ h3{
     background: rgba(0, 0, 0, 0.9);
     height: 100%;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
     display: none;
 }
 
@@ -286,6 +286,17 @@ h3{
     border-radius: 50px;
 }
 
-.fun-section{
-    z-index: 1;
+#fun-section{
+    background-color: var(--white);
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    height: 510px;
+    box-shadow: 5px 5px 5px 5px #ff7d7d2a, -5px -5px 20px 20px #ff7d7d2a;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
