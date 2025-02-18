@@ -8,7 +8,7 @@ Making a simple Personal Portfolio Website :>
 ## 🌱 IDE 🌱: 
 * Virtual Studio Code
 
-## 🌱 Tutorials watched: 
+## 🌱 Tutorials watched 🌱: 
 * HTML: SDPT Solutions
-* CSS:
-* Javascript:
+* CSS: SDPT Solutions
+* Javascript: SDPT Solutions
