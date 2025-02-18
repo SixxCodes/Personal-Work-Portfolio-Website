@@ -274,9 +274,16 @@ h3{
   object-fit: cover;
 }
 
+.popup-image div{
+    background-color: var(--white);
+    margin: 500px 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .popup-image p{
-    margin-top: 500px;
-    color: white;
+    text-align: center;
+    font-size: 18px;
 }
 
 @media (max-width: 768px){
