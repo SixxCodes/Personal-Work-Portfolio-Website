@@ -298,6 +298,29 @@ h3{
     border-radius: 50px;
 }
 
+.skill-section div{
+    background-color: var(--white);
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 20px;
+    height: 510px;
+    box-shadow: 5px 5px 5px 5px #ff7d7d2a, -5px -5px 20px 20px #ff7d7d2a;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skill-section h3{
+    background-color: var(--white);
+    display: inline-block;
+    margin-left: 364px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 #fun-section{
     background-color: var(--white);
     background-attachment: fixed;
