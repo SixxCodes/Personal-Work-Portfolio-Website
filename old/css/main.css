@@ -1,0 +1,87 @@
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    --main-color: #ff7d7d;
+    --white: rgb(249, 240, 255);
+}
+
+body{
+    margin: 0;
+    background-image: url('../my_images/pink-bg.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/*====================HEADER====================*/
+
+header{
+    background-color: var(--white);
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* border-bottom: 2px solid #ff7d7d; */
+    box-shadow: 5px 5px 10px 5px #ff7d7d54;
+}
+
+.logo{
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 50px;
+    float: left;
+    border: 1px solid var(--main-color);
+
+    transition: 1s;
+}
+
+.logo:hover{
+    box-shadow: 5px 5px 10px 2px var(--main-color), -5px -5px 10px 2px var(--main-color);
+}
+
+h2{
+    margin: 15px 10px;
+    display: inline-block;
+    color: var(--main-color);
+    font-size: 33px;
+}
+
+.link-container{
+    position: relative;
+    float: right;
+    top: 9px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 20px;
+    color: var(--main-color);
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    text-decoration: underline;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 30px;
+}
+
+#hire-me{
+    font-size: 20px;
+    border: 0;
+    margin-right: 20px;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#hire-me:hover{
+    background-color: #ff7d7d86;
+    padding: 13px 50px;
+    cursor: pointer;
+}
