@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idle Fading Navbar</title>
+  <style>
+    body {
+      height: 2000px; /* just for scrolling */
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      transition: opacity 0.5s ease; /* smooth fade */
+    }
+
+    nav.hidden {
+      opacity: 0; /* invisible when idle */
+      pointer-events: none; /* prevent hovering/clicking */
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    My Fixed Navbar
+  </nav>
+
+  <script>
+    const navbar = document.getElementById("navbar");
+    let idleTimer;
+
+    function resetIdleTimer() {
+      navbar.classList.remove("hidden"); // show navbar
+      clearTimeout(idleTimer);
+      idleTimer = setTimeout(() => {
+        navbar.classList.add("hidden"); // hide after idle
+      }, 3000); // 3 seconds idle time
+    }
+
+    // Detect activity
+    window.addEventListener("mousemove", resetIdleTimer);
+    window.addEventListener("scroll", resetIdleTimer);
+    window.addEventListener("keydown", resetIdleTimer);
+
+    resetIdleTimer(); // start timer on load
+  </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+:root{
+    --bg-color: #2E0918;
+    --lighter-bg-color: #4F1029;
+    --pink: #F6AEAC;
+    --pink2: #E3008C;
+    --font1: 'Protest Strike', sans-serif;
+    --font2: 'Qwigley', cursive;
+    --font3: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+a {
+    cursor: pointer;
+}
+
+/*====================HEADER====================*/
+
+.header-main-desktop {
+    width: 100%;
+    height: 70px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main-desktop nav {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.header-main-desktop nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.header-main-desktop nav ul li {
+    list-style: none;
+    font-family: var(--font1);
+    margin: 0 2rem 0 2rem;
+}
+
+.header-main-desktop nav ul li a{
+    color: var(--pink);
+    text-decoration: none;
+    font-size: 1.3rem;
+    /* font-size: clamp(1rem, 2vw, 1.3rem); */
+}
+
+.header-main-desktop nav ul li a:hover {
+    color: var(--pink2);
+}
+
+.header-main-desktop nav ul li img {
+    height: 50px;
+}
+
+/* Tablet Styles */
+@media screen and (max-width: 834px) {
+
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 376px) {
+    
+}
