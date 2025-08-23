@@ -106,6 +106,7 @@ a {
     width: 40px;
     margin-left: auto;
     position: relative;
+    cursor: pointer;
 }
 
 .ham-menu span {
@@ -178,8 +179,20 @@ a {
     transition: .3s ease;
 }
 
-.off-screen-nav-links ul li{
+.off-screen-nav-links ul li {
     list-style: none;
+    margin-bottom: 10px;
+}
+
+.off-screen-nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.off-screen-nav-links ul li a:hover {
+    font-size: 3rem;
+    transition: 0.3s;
 }
 
 /* Tablet Styles */
