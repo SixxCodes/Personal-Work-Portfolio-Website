@@ -1,0 +1,48 @@
+:root{
+    --bg-color: #2E0918;
+    --lighter-bg-color: #4F1029;
+    --pink: #F6AEAC;
+    --pink2: #E3008C;
+    --protest-strike: 'Protest Strike', sans-serif;
+    --qwigley: 'Qwigley', cursive;
+    --poppins: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+a {
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.hero-photo {
+    background-color: red;
+}
+
+.hero-text {
+    width: 100px;
+    background-color: blue;
+}
+
+.hero-buttons {
+    width: 100px;
+    background-color: yellow;
+}
+
+footer {
+    height: 100%;
+    width: 100px;
+    background-color: green;
+}
