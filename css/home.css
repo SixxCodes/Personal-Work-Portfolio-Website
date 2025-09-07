@@ -22,48 +22,81 @@ a {
     cursor: pointer;
 }
 
+/*====================Main====================*/
 
-
-/*====================HERO====================*/
-
-.hero {
+main {
+    /* background-color: white; */
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     /* background-color: aquamarine; */
+    border-radius: 100;
+    margin: 0 6em 0 6em;
+    height: 100%;
+    max-height: 30em;
 }
 
-.hero-photo {
+/* .hero-photo {
     background-color: red;
+} */
+
+.hero-photo img {
+    height: 100%;
 }
 
 .hero-text {
-    width: 100px;
-    background-color: blue;
+    /* background-color: blue; */
+    color: white;
+}
+
+.hero-text h1 {
+    font-family: var(--qwigley);
+}
+
+.hero-text p {
+    font-family: var(--protest-strike);
 }
 
 .hero-buttons {
-    width: 100px;
-    background-color: yellow;
+    display: flex;
+    /* background-color: yellow; */
+}
+
+.hero-buttons a {
+    color: white;
+    text-decoration: none;
+    background-color: var(--bg-color);
+    border-color: white;
+    font-family: var(--poppins);
+}
+
+.hero-buttons button {
+    color: white;
+    background-color: var(--pink2);
+    border-color: white;
+    font-family: var(--poppins);
 }
 
 /*====================FOOTER====================*/
 
 footer {
-    height: 100vh;
-    width: 100px;
-    background-color: green;
-}
-
-footer ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: end;
     justify-content: center;
+    height: 100%;
+    width: 4em;
+    /* background-color: green; */
 }
 
 footer ul li {
     list-style: none;
+    margin-top: 0.5rem;
 }
 
 footer ul li a {
     color: var(--pink2);
+}
+
+footer ul li a i {
+    font-size: 1.4rem;
 }
