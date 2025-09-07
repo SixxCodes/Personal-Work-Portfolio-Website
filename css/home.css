@@ -22,9 +22,13 @@ a {
     cursor: pointer;
 }
 
+
+
+/*====================HERO====================*/
+
 .hero {
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .hero-photo {
@@ -41,8 +45,25 @@ a {
     background-color: yellow;
 }
 
+/*====================FOOTER====================*/
+
 footer {
-    height: 100%;
+    height: 100vh;
     width: 100px;
     background-color: green;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: var(--pink2);
 }
